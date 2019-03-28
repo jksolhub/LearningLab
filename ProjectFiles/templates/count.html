@@ -1,0 +1,15 @@
+<h3><a href="{% url 'home' %}"> Start Again</a></h3>
+<h1> word Count {{word_count}}</h1>
+<h2> your text : </h2>
+{{txt_fulltext}}
+<h2> Word list with count:</h2>
+<br />
+<table>
+    {%for word, count in Word_Dictionary %}
+        <tr><td>{{word}}</td><td>{{count}}</td></tr>
+    {% endfor %}
+</table>
+<br />
+<br />
+<h3>END</h3>
+

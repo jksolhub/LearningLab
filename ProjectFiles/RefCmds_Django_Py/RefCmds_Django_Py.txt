@@ -1,0 +1,1 @@
+python ..\django_DevEnv\projectfiles\manage.py runserver
